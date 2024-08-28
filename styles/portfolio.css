@@ -80,7 +80,10 @@ nav a {
     margin-top: 5px;
     margin-bottom: 20px;
 }
-
+main{
+    max-width: 1140px;
+    margin: 0 auto ;
+}
 .about {
     padding: 130px;
     border-radius: 10px;
@@ -94,4 +97,14 @@ nav a {
     font-size: 35px;
     text-align: center;
 
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+#what-do-description{
+    padding: 30px 150px;
 }
