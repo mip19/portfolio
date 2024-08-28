@@ -2,6 +2,10 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -80,10 +84,12 @@ nav a {
     margin-top: 5px;
     margin-bottom: 20px;
 }
-main{
+
+main {
     max-width: 1140px;
-    margin: 0 auto ;
+    margin: 0 auto;
 }
+
 .about {
     padding: 130px;
     border-radius: 10px;
@@ -98,13 +104,60 @@ main{
     text-align: center;
 
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
-#what-do-description{
+
+#what-do-description {
     padding: 30px 150px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+
+}
+
+.skill {
+    padding: 30px;
+    background: white;
+    box-shadow: 0px 6px 30px 0px;
+}
+
+.skill-description {
+    color: #757575;
+}
+
+.resume-column-title {
+    
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+.resume-container{
+    display:flex ;
+    gap:50px;
+}
+.resume-item-description , .resume-item-inst{
+    color: #757575;
+}
+.resume-item-title{
+
+}
+.resume-container hr{
+    margin: 30px;
+}
+.resume-item-inst{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
